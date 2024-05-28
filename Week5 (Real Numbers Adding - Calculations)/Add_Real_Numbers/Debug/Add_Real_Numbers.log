@@ -1,0 +1,4 @@
+﻿  Add_Real_Numbers.cpp
+D:\СИТ1_А\Steven_s21621523\Week5\Add_Real_Numbers\Add_Real_Numbers.cpp(199,18): warning C4101: 't11': unreferenced local variable
+D:\СИТ1_А\Steven_s21621523\Week5\Add_Real_Numbers\Add_Real_Numbers.cpp(199,44): warning C4101: 't3': unreferenced local variable
+  Add_Real_Numbers.vcxproj -> D:\СИТ1_А\Steven_s21621523\Week5\Add_Real_Numbers\Debug\Add_Real_Numbers.exe
