@@ -1,0 +1,4 @@
+﻿  Add_Real_Numbers.cpp
+D:\TUVaRNA\Course2\sem4\PS\PRAKTIKA\Steven\Week5\Add_Real_Numbers\Add_Real_Numbers.cpp(199,18): warning C4101: 't11': unreferenced local variable
+D:\TUVaRNA\Course2\sem4\PS\PRAKTIKA\Steven\Week5\Add_Real_Numbers\Add_Real_Numbers.cpp(199,44): warning C4101: 't3': unreferenced local variable
+  Add_Real_Numbers.vcxproj -> D:\TUVaRNA\Course2\sem4\PS\PRAKTIKA\Steven\Week5\Add_Real_Numbers\Debug\Add_Real_Numbers.exe
