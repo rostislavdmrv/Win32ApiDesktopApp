@@ -1,0 +1,7 @@
+﻿  WindowsProject1.cpp
+C:\Users\User\Desktop\PS Week 1-10\Week10\WindowsProject1\WindowsProject1.cpp(198,9): warning C4101: 'mID': unreferenced local variable
+C:\Users\User\Desktop\PS Week 1-10\Week10\WindowsProject1\WindowsProject1.cpp(195,18): warning C4101: 't11': unreferenced local variable
+C:\Users\User\Desktop\PS Week 1-10\Week10\WindowsProject1\WindowsProject1.cpp(195,52): warning C4101: 't4': unreferenced local variable
+C:\Users\User\Desktop\PS Week 1-10\Week10\WindowsProject1\WindowsProject1.cpp(200,9): warning C4101: 'lbIndex': unreferenced local variable
+C:\Users\User\Desktop\PS Week 1-10\Week10\WindowsProject1\WindowsProject1.cpp(197,18): warning C4101: 'l_index': unreferenced local variable
+  WindowsProject1.vcxproj -> C:\Users\User\Desktop\PS Week 1-10\Week10\WindowsProject1\Debug\WindowsProject1.exe
