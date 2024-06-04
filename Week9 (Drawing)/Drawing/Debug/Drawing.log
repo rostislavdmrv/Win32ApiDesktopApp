@@ -1,0 +1,7 @@
+﻿  Drawing.cpp
+D:\СИТ1_А\Steven_s21621523\Week9 (Drawing)\Drawing\Drawing.cpp(133,9): warning C4101: 'hdc': unreferenced local variable
+D:\СИТ1_А\Steven_s21621523\Week9 (Drawing)\Drawing\Drawing.cpp(132,17): warning C4101: 'ps': unreferenced local variable
+D:\СИТ1_А\Steven_s21621523\Week9 (Drawing)\Drawing\Drawing.cpp(134,11): warning C4101: 'szHello': unreferenced local variable
+D:\СИТ1_А\Steven_s21621523\Week9 (Drawing)\Drawing\Drawing.cpp(130,15): warning C4101: 'wmEvent': unreferenced local variable
+D:\СИТ1_А\Steven_s21621523\Week9 (Drawing)\Drawing\Drawing.cpp(130,9): warning C4101: 'wmId': unreferenced local variable
+  Drawing.vcxproj -> D:\СИТ1_А\Steven_s21621523\Week9 (Drawing)\Drawing\Debug\Drawing.exe
