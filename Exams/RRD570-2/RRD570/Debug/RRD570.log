@@ -1,0 +1,10 @@
+﻿  RRD570.cpp
+D:\TUVaRNA\Course2\sem4\ПС\PRAKTIKA\k2\RRD570\RRD570\RRD570.cpp(141,9): warning C4101: 'hdc': unreferenced local variable
+D:\TUVaRNA\Course2\sem4\ПС\PRAKTIKA\k2\RRD570\RRD570\RRD570.cpp(140,17): warning C4101: 'ps': unreferenced local variable
+D:\TUVaRNA\Course2\sem4\ПС\PRAKTIKA\k2\RRD570\RRD570\RRD570.cpp(142,11): warning C4101: 'szHello': unreferenced local variable
+D:\TUVaRNA\Course2\sem4\ПС\PRAKTIKA\k2\RRD570\RRD570\RRD570.cpp(138,15): warning C4101: 'wmEvent': unreferenced local variable
+D:\TUVaRNA\Course2\sem4\ПС\PRAKTIKA\k2\RRD570\RRD570\RRD570.cpp(235,9): warning C4101: 'mID': unreferenced local variable
+D:\TUVaRNA\Course2\sem4\ПС\PRAKTIKA\k2\RRD570\RRD570\RRD570.cpp(232,52): warning C4101: 't4': unreferenced local variable
+D:\TUVaRNA\Course2\sem4\ПС\PRAKTIKA\k2\RRD570\RRD570\RRD570.cpp(236,9): warning C4101: 'cbIndex': unreferenced local variable
+D:\TUVaRNA\Course2\sem4\ПС\PRAKTIKA\k2\RRD570\RRD570\RRD570.cpp(232,44): warning C4101: 't3': unreferenced local variable
+  RRD570.vcxproj -> D:\TUVaRNA\Course2\sem4\ПС\PRAKTIKA\k2\RRD570\Debug\RRD570.exe
