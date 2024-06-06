@@ -1,0 +1,11 @@
+﻿  RRD570.cpp
+D:\TUVaRNA\Course2\sem4\ПС\RRD570\RRD570\RRD570.cpp(142,13): warning C4101: 'hdc': unreferenced local variable
+D:\TUVaRNA\Course2\sem4\ПС\RRD570\RRD570\RRD570.cpp(141,21): warning C4101: 'ps': unreferenced local variable
+D:\TUVaRNA\Course2\sem4\ПС\RRD570\RRD570\RRD570.cpp(305,26): warning C4101: 't11': unreferenced local variable
+D:\TUVaRNA\Course2\sem4\ПС\RRD570\RRD570\RRD570.cpp(305,43): warning C4101: 't22': unreferenced local variable
+D:\TUVaRNA\Course2\sem4\ПС\RRD570\RRD570\RRD570.cpp(305,35): warning C4101: 't2': unreferenced local variable
+D:\TUVaRNA\Course2\sem4\ПС\RRD570\RRD570\RRD570.cpp(305,62): warning C4101: 'stopstring': unreferenced local variable
+D:\TUVaRNA\Course2\sem4\ПС\RRD570\RRD570\RRD570.cpp(305,18): warning C4101: 't1': unreferenced local variable
+D:\TUVaRNA\Course2\sem4\ПС\RRD570\RRD570\RRD570.cpp(305,52): warning C4101: 't3': unreferenced local variable
+D:\TUVaRNA\Course2\sem4\ПС\RRD570\RRD570\RRD570.cpp(353,27): warning C4101: 't119': unreferenced local variable
+  RRD570.vcxproj -> D:\TUVaRNA\Course2\sem4\ПС\RRD570\Debug\RRD570.exe
