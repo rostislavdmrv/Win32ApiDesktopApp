@@ -1,0 +1,21 @@
+﻿Build started 31-May-22 12:09:19 PM.
+     1>Project "C:\Users\student\Desktop\Labs PS\Lab7_Draw1\myWin32Timer_Draw\myWin32.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp".\Debug\myWin32.pch" /Fo".\Debug\\" /Fd".\Debug\vc110.pdb" /FR".\Debug\\" /Gd /TP /analyze- /errorReport:prompt StdAfx.cpp
+         StdAfx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp".\Debug\myWin32.pch" /Fo".\Debug\\" /Fd".\Debug\vc110.pdb" /FR".\Debug\\" /Gd /TP /analyze- /errorReport:prompt "2007-02-20.cpp" myWin32.cpp
+         myWin32.cpp
+     1>c:\users\student\desktop\labs ps\lab7_draw1\mywin32timer_draw\mywin32.cpp(218): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdlib.h(909) : see declaration of 'itoa'
+     1>c:\users\student\desktop\labs ps\lab7_draw1\mywin32timer_draw\mywin32.cpp(229): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdlib.h(909) : see declaration of 'itoa'
+     1>c:\users\student\desktop\labs ps\lab7_draw1\mywin32timer_draw\mywin32.cpp(230): error C2065: 'i' : undeclared identifier
+     1>c:\users\student\desktop\labs ps\lab7_draw1\mywin32timer_draw\mywin32.cpp(231): error C2065: 'i' : undeclared identifier
+     1>c:\users\student\desktop\labs ps\lab7_draw1\mywin32timer_draw\mywin32.cpp(232): error C2065: 'i' : undeclared identifier
+         2007-02-20.cpp
+         Generating Code...
+     1>Done Building Project "C:\Users\student\Desktop\Labs PS\Lab7_Draw1\myWin32Timer_Draw\myWin32.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.76

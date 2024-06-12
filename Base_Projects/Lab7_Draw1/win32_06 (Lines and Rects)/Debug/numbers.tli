@@ -1,0 +1,18 @@
+// Created by Microsoft (R) C/C++ Compiler Version 12.00.8168.0 (2e508f76).
+//
+// \\fs\root\home\adk\prv\labs\win32_06 (lines and rects)\debug\numbers.tli
+//
+// Wrapper implementations for Win32 type library ..\numbers.tlb
+// compiler-generated file created 06/01/06 at 15:57:41 - DO NOT EDIT!
+
+#pragma once
+
+//
+// interface INumbers wrapper method implementations
+//
+
+inline HRESULT INumbers::GetVal42 ( int * val ) {
+    HRESULT _hr = raw_GetVal42(val);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}

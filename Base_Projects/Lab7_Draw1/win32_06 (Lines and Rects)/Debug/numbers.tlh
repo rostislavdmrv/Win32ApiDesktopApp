@@ -1,0 +1,63 @@
+// Created by Microsoft (R) C/C++ Compiler Version 12.00.8168.0 (2e508f76).
+//
+// \\fs\root\home\adk\prv\labs\win32_06 (lines and rects)\debug\numbers.tlh
+//
+// C++ source equivalent of Win32 type library ..\numbers.tlb
+// compiler-generated file created 06/01/06 at 15:57:41 - DO NOT EDIT!
+
+#pragma once
+#pragma pack(push, 8)
+
+#include <comdef.h>
+
+namespace SERVERLib {
+
+//
+// Forward references and typedefs
+//
+
+struct /* coclass */ Numbers;
+struct __declspec(uuid("b58df063-ead9-11d7-bb81-000475bb5b75"))
+/* interface */ INumbers;
+
+//
+// Smart pointer typedef declarations
+//
+
+_COM_SMARTPTR_TYPEDEF(INumbers, __uuidof(INumbers));
+
+//
+// Type library items
+//
+
+struct __declspec(uuid("b58df065-ead9-11d7-bb81-000475bb5b75"))
+Numbers;
+    // [ default ] interface INumbers
+
+struct __declspec(uuid("b58df063-ead9-11d7-bb81-000475bb5b75"))
+INumbers : IUnknown
+{
+    //
+    // Wrapper methods for error-handling
+    //
+
+    HRESULT GetVal42 (
+        int * val );
+
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall raw_GetVal42 (
+        int * val ) = 0;
+};
+
+//
+// Wrapper method implementations
+//
+
+#include "\\fs\root\home\adk\prv\labs\win32_06 (lines and rects)\debug\numbers.tli"
+
+} // namespace SERVERLib
+
+#pragma pack(pop)

@@ -1,0 +1,270 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "windows.h"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+#include "resource.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Bulgarian resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_BGR)
+#ifdef _WIN32
+LANGUAGE LANG_BULGARIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_TESTDIALOG DIALOGEX 0, 0, 232, 98
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "OK?",IDOK,107,64,50,14,0,WS_EX_STATICEDGE
+    PUSHBUTTON      "Cancel",IDCANCEL,175,64,50,14
+    PUSHBUTTON      "myButton",IDMYBUTTON,28,64,50,14,NOT WS_TABSTOP
+    DEFPUSHBUTTON   "Button1",IDBUTTON1,108,42,50,14
+    EDITTEXT        IDC_EDITFIELD,26,17,84,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "read",IDC_READBUTTON,137,17,50,14
+END
+
+IDD_NEWWINDIALOG DIALOG DISCARDABLE  0, 0, 339, 201
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "check left",IDC_CHECKLEFT,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,27,34,47,10
+    CONTROL         "check right",IDC_CHECKRIGHT,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,101,33,51,10
+    COMBOBOX        IDC_COMBOBOX,21,58,48,49,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LISTBOX         IDC_LISTBOX,103,57,48,40,LBS_SORT | LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "btn",IDC_ADDTOBOX,99,7,50,14
+    EDITTEXT        IDC_EDITBOX2,21,7,63,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDITCOMBO,25,153,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDITLIST,164,155,40,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "insert",IDC_INSERT,91,153,50,14
+END
+
+IDD_DIALOG3 DIALOG DISCARDABLE  0, 0, 409, 247
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,352,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,352,24,50,14
+    EDITTEXT        IDC_MOUSEX,23,14,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_MOUSEY,83,14,40,14,ES_AUTOHSCROLL
+    LTEXT           "X:",IDC_STATIC,13,15,8,8
+    LTEXT           "Y:",IDC_STATIC,76,17,8,8
+    CONTROL         "Rbutton",IDC_RBUTTON,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,35,93,41,10
+    CONTROL         "Control",IDC_CTRL,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    35,108,38,10
+    CONTROL         "Shift",IDC_CHECKSHIFT,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,35,123,30,10
+    CONTROL         "Lbutton",IDC_LBUTTON,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,35,78,40,10
+    PUSHBUTTON      "start",IDC_TSTART,179,79,50,14
+    PUSHBUTTON      "stop",IDC_TSTOP,179,100,50,14
+    PUSHBUTTON      "pause",IDC_TPAUSE,179,122,50,14
+    EDITTEXT        IDC_TIMER,279,78,40,14,ES_AUTOHSCROLL
+    CONTROL         "Progress2",IDC_PROGBAR,"msctls_progress32",PBS_SMOOTH | 
+                    WS_BORDER,86,188,253,14
+END
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_TESTDIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 225
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 91
+    END
+
+    IDD_NEWWINDIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 332
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 194
+    END
+
+    IDD_DIALOG3, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 402
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 240
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP1             BITMAP  DISCARDABLE     "bitmap1.bmp"
+#endif    // Bulgarian resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  22, 17, 230, 75
+STYLE DS_MODALFRAME | WS_CAPTION | WS_SYSMENU
+CAPTION "About"
+FONT 8, "System"
+BEGIN
+    ICON            IDI_MYWIN32,IDC_MYICON,14,9,16,16
+    LTEXT           "myWin32 Version 1.0",IDC_STATIC,49,10,119,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2007",IDC_STATIC,49,20,119,8
+    DEFPUSHBUTTON   "OK",IDOK,195,6,30,11,WS_GROUP
+END
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""windows.h""\r\n"
+    "#undef APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""resource.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_MYWIN32             ICON    DISCARDABLE     "myWin32.ICO"
+IDI_SMALL               ICON    DISCARDABLE     "SMALL.ICO"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDC_MYWIN32 MENU DISCARDABLE 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "E&xit",                       IDM_EXIT
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&About ...",                  IDM_ABOUT
+    END
+    MENUITEM "Test Timer",                  ID_TESTTIMER
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDC_MYWIN32 ACCELERATORS MOVEABLE PURE 
+BEGIN
+    "/",            IDM_ABOUT,              ASCII,  ALT, NOINVERT
+    "?",            IDM_ABOUT,              ASCII,  ALT, NOINVERT
+    "r",            IDM_TESTDIALOG,         ASCII,  ALT, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_APP_TITLE           "myWin32"
+    IDS_HELLO               "Pyrvoto mi Windows prozorche"
+    IDC_MYWIN32             "MYWIN32"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
