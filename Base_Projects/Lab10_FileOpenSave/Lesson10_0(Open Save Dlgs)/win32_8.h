@@ -1,0 +1,13 @@
+
+#if !defined(AFX_WIN32_8_H__1E34FD93_AE85_4766_B571_7195128DCE1F__INCLUDED_)
+#define AFX_WIN32_8_H__1E34FD93_AE85_4766_B571_7195128DCE1F__INCLUDED_
+
+#if _MSC_VER > 1000
+#pragma once
+#endif // _MSC_VER > 1000
+
+#include "resource.h"
+
+void OnOpenFile(HWND);
+void OnSaveAsFile(HWND);
+#endif // !defined(AFX_WIN32_8_H__1E34FD93_AE85_4766_B571_7195128DCE1F__INCLUDED_)
