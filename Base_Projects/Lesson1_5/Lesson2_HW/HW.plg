@@ -1,0 +1,34 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: HW - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Mariana\LOCALS~1\Temp\RSP75.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Debug/HW.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\ProgSystem\Uprajnenia\HW\HW.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Mariana\LOCALS~1\Temp\RSP75.tmp" 
+Creating temporary file "C:\DOCUME~1\Mariana\LOCALS~1\Temp\RSP76.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/HW.pdb" /debug /machine:I386 /out:"Debug/HW.exe" /pdbtype:sept 
+.\Debug\HW.obj
+.\Debug\StdAfx.obj
+.\Debug\HW.res
+]
+Creating command line "link.exe @C:\DOCUME~1\Mariana\LOCALS~1\Temp\RSP76.tmp"
+<h3>Output Window</h3>
+Compiling...
+HW.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+HW.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
